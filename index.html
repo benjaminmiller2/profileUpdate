@@ -5,74 +5,114 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>Profile Page</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" type="text/css" media="screen" href="./assets/css/main.css" />
+    <link rel="stylesheet" type="text/css" media="screen" href="./assets/css/style.css" />
     <link href="https://fonts.googleapis.com/css?family=EB+Garamond" rel="stylesheet">
     <script src="https://code.jquery.com/jquery-3.3.1.slim.js" integrity="sha256-fNXJFIlca05BIO2Y5zh1xrShK3ME+/lYZ0j+ChxX2DA="
     crossorigin="anonymous"></script>
-    <script src="main.js"></script>
+    <script src="./assets/js/script.js"></script>
 </head>
 <body>
-    <div class="header">
-        <h2>Profile - Test</h2>
-    </div>
-
-    <div class="container">
 
         <div class="banner">
+            <h1 class="center-text">Benjamin P. Miller</h1>
+        </div>
 
-                <h1 class="center-text">Benjamin P. Miller</h1>
+        <div class="js-header"></div>
+
+        <div class="header nav-bar">
+        
+                <div class="nav-button-box"><input type="button" class="nav-button" value="Projects" onclick="window.location.href='#projects'" /></div>
+                <div class="nav-button-box"><input type="button" class="nav-button" value="About" onclick="window.location.href='#about'" /></div>
+                <div class="nav-button-box"><input type="button" class="nav-button" value="Connect" onclick="window.location.href='#connect'" /></div>
+                <div class="nav-button-box"><input type="button" class="nav-button" value="Contact" onclick="window.location.href='#contact'" /></div>
+       
 
         </div>
 
+
+    <div class="container">
+
         <div class="section">
-            <h2 class="titles">Projects</h2>
+            <h2 class="titles"><a id="projects"></a>Projects</h2>
             <div class="project-container">
 
                 <div class="card">
                     <img class="card-image" src="./assets/images/cat1.jpg" alt="cat">
                     <div class="card-container">
-                        <h4>Project One</h4>
-                        <p>Git Repo</p>
+                        <h4>Project One - The Psychic's Game</h4>
+                        <a href="https://benjaminmiller2.github.io/psychic-game/"><p>GitHub Repo</p></a>
                     </div>
                 </div>
 
                 <div class="card">
                         <img class="card-image" src="./assets/images/cat1.jpg" alt="cat">
                         <div class="card-container">
-                            <h4>Project One</h4>
-                            <p>Git Repo</p>
+                            <h4>Project Two - The Hangman Game</h4>
+                            <a href="https://benjaminmiller2.github.io/Hangman-game/"><p>GitHub Repo</p></a>
                         </div>
                     </div>
 
                     <div class="card">
                             <img class="card-image" src="./assets/images/cat1.jpg" alt="cat">
                             <div class="card-container">
-                                <h4>Project One</h4>
-                                <p>Git Repo</p>
+                                <h4>Project Three - The Crystal Collector</h4>
+                                <a href="https://benjaminmiller2.github.io/week-4-game/"><p>GitHub Repo</p></a>
                             </div>
                         </div>
 
                         <div class="card">
                                 <img class="card-image" src="./assets/images/cat1.jpg" alt="cat">
                                 <div class="card-container">
-                                    <h4>Project One</h4>
-                                    <p>Git Repo</p>
+                                    <h4>Project Four - A Trivia Game</h4>
+                                    <a href="https://benjaminmiller2.github.io/TriviaGame/"><p>GitHub Repo</p></a>
                                 </div>
                             </div>
 
                             <div class="card">
                                     <img class="card-image" src="./assets/images/cat1.jpg" alt="cat">
                                     <div class="card-container">
-                                        <h4>Project One</h4>
-                                        <p>Git Repo</p>
+                                        <h4>Project Five - Giphy</h4>
+                                        <a href="https://benjaminmiller2.github.io/giphy/"><p>GitHub Repo</p></a>
                                     </div>
                                 </div>
+
+                                <div class="card">
+                                        <img class="card-image" src="./assets/images/cat1.jpg" alt="cat">
+                                        <div class="card-container">
+                                            <h4>Project Six - Trains Schedule</h4>
+                                            <a href="https://benjaminmiller2.github.io/train/"><p>GitHub Repo</p></a>
+                                        </div>
+                                    </div>
+
+                                    <div class="card">
+                                            <img class="card-image" src="./assets/images/cat1.jpg" alt="cat">
+                                            <div class="card-container">
+                                                <h4>Project Seven - LIRI Node App</h4>
+                                                <a href="https://benjaminmiller2.github.io/liri-node-app/"><p>GitHub Repo</p></a>
+                                            </div>
+                                        </div>
+
+                                        <div class="card">
+                                                <img class="card-image" src="./assets/images/cat1.jpg" alt="cat">
+                                                <div class="card-container">
+                                                    <h4>Project Eight - Friend Finder App</h4>
+                                                    <a href="https://benjaminmiller2.github.io/train/"><p>GitHub Repo</p></a>
+                                                </div>
+                                            </div>
+
+                                            <div class="card">
+                                                    <img class="card-image" src="./assets/images/cat1.jpg" alt="cat">
+                                                    <div class="card-container">
+                                                        <h4>Project Nine - Burger Restaurant</h4>
+                                                        <a href="https://benjaminmiller2.github.io/train/"><p>GitHub Repo</p></a>
+                                                    </div>
+                                                </div>
 
             </div>
         </div>
 
         <div class="section">
-            <div><h2 class="titles">About</h2></div>
+            <div><h2 class="titles"><a id="about"></a>About</h2></div>
             <div class="about-container">
                     <div class="image-box">
 
@@ -93,7 +133,7 @@
         </div>
 
         <div class="section">
-                <div><h2 class="titles">Connection</h2></div>
+                <div><h2 class="titles"><a id="connect"></a>Connect</h2></div>
                 <div class="project-container">
                     <div class="icon"><a href="https://www.linkedin.com/in/benjaminmiller1/" target="_blank"><img src="./assets/images/linkedin.png" alt="Linkedin"></a></div>
                     <div class="icon"><a href="https://github.com/benjaminmiller2" target="_blank"><img src="./assets/images/github.png" alt="Github"></a></div>
@@ -102,7 +142,7 @@
         </div>
 
         <div class="section">
-            <div><h2 class="titles">Contact</h2></div>
+            <div><h2 class="titles"><a id="contact"></a>Contact</h2></div>
             <form class="form" action="mailto:benjamin.miller2@northwestern.edu" method="post" enctype="text/plain">
 
                 <input class="input" placeholder="Name" required="" name="Name" type="text">
@@ -110,7 +150,7 @@
                 <input class="input" placeholder="Subject" required="" name="Subject" type="text">
                 <input class="input" placeholder="Message" required="" name="Message" type="text">
 
-                <button class="button">Send Message</button>
+                <button class="nav-button">Send Message</button>
             </form>
         </div>
 
